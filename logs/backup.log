@@ -1,0 +1,16 @@
+Backup Summary at 2021-11-09 18:00:03.470936
+--------------------------------------------
+Database backup: ./projectm/private/backups/20211109_180003-projectm-database.sql.gz
+Backup Summary at 2021-11-10 12:00:03.015253
+--------------------------------------------
+Database backup: ./projectm/private/backups/20211110_120002-projectm-database.sql.gz
+Backup Summary at 2021-11-10 18:00:04.030060
+--------------------------------------------
+Database backup: ./projectm/private/backups/20211110_180003-projectm-database.sql.gz
+Backup Summary at 2021-11-11 12:00:04.510056
+--------------------------------------------
+Database backup: ./projectm/private/backups/20211111_120003-projectm-database.sql.gz
+Backup Summary at 2021-11-11 18:00:03.659651
+--------------------------------------------
+Database backup: ./projectm/private/backups/20211111_180003-projectm-database.sql.gz
+/home/indictrans/Desktop/Frappe_Assignment/frappe-bench/env/bin/python: Error while finding module specification for 'frappe.utils.bench_helper' (ModuleNotFoundError: No module named 'frappe')

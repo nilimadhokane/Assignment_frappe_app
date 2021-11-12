@@ -1,0 +1,96 @@
+{
+ "autoname": "format:{MM}-{YY}-{###}",
+ "creation": "2021-11-09 15:18:20.481765",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_id",
+  "title_of_the_project",
+  "project_description",
+  "start_date",
+  "approximate_end_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_id",
+   "fieldtype": "Data",
+   "label": "Project ID"
+  },
+  {
+   "fieldname": "title_of_the_project",
+   "fieldtype": "Text Editor",
+   "label": "Title of the Project"
+  },
+  {
+   "fieldname": "project_description",
+   "fieldtype": "Data",
+   "label": "Project description"
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "label": "Start Date"
+  },
+  {
+   "fieldname": "approximate_end_date",
+   "fieldtype": "Date",
+   "label": "Approximate End Date"
+  }
+ ],
+ "modified": "2021-11-09 16:29:54.209529",
+ "modified_by": "Administrator",
+ "module": "Project Management",
+ "name": "Project",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Developer",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "QA",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
